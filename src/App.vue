@@ -1,6 +1,8 @@
 <template>
 	<div id="app">
-	<a class="a">adsf</a>
+	<p class="p">adsf
+	<span > 哈哈哈</span>
+	</p>
 	</div>
 
 </template>
