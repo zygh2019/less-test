@@ -1,8 +1,17 @@
-@main-color : red;
+@height:100px;
+@width:@height + 100px;
+//函数
+.deColor(@main-color:red){
+		background-color: @main-color;
+}
 .p {
-	background-color: @main-color;
+	//混合
+	.deColor();
+	height: @height;
+	width: @width;
 	span{
 		font-size: 0.625rem;
+		
 	}
 }
 
