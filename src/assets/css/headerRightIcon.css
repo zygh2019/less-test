@@ -1,0 +1,18 @@
+@font-face {
+	font-family: 'header-right-icon';
+	src: url('../fonts/headerRightIcon.ttf') format('truetype');
+}
+
+.header-right-icon {
+	font-family: 'header-right-icon';
+	position: relative;
+	font: 0.37333rem/1 "header-right-icon";
+	font-size: 20px;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+}
+
+.header-right-icon-ext::before {
+	content: "\e900";
+	color: #d41702;
+}

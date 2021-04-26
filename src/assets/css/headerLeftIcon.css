@@ -1,0 +1,18 @@
+@font-face {
+	font-family: 'header-left-icon';
+	src: url('../fonts/headerLeftIcon.ttf') format('truetype');
+}
+
+.header-left-icon {
+	font-family: 'header-left-icon';
+	position: relative;
+	font: 0.37333rem/1 "header-left-icon";
+	font-size: 19px;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+}
+
+.header-left-icon-ext::before {
+	content: "\1f31e";
+	color: #d41702;
+}
