@@ -33,18 +33,39 @@
 			<van-swipe-item>3</van-swipe-item>
 			<van-swipe-item>4</van-swipe-item>
 		</van-swipe>
-		<van-tag v-if="show" closeable size="medium" type="primary" @close="close" >
+		<van-tag v-if="show" closeable size="medium" type="primary" @close="close">
 			标签
 		</van-tag>
-		<van-tag v-if="show" closeable size="medium" type="primary" @close="close" >
+		<van-tag v-if="show" closeable size="medium" type="primary" @close="close">
 			标签
 		</van-tag>
-		<van-tag v-if="show" closeable size="medium" type="primary" @close="close" >
+		<van-tag v-if="show" closeable size="medium" type="primary" @close="close">
 			标签
 		</van-tag>
-		<van-tag v-if="show" closeable size="medium" type="primary" @close="close" >
+		<van-tag v-if="show" closeable size="medium" type="primary" @close="close">
 			标签
 		</van-tag>
+		<van-grid>
+			<van-grid-item icon="photo-o" text="文字" />
+			<van-grid-item icon="photo-o" text="文字" />
+			<van-grid-item icon="photo-o" text="文字" />
+			<van-grid-item icon="photo-o" text="文字" />
+		</van-grid>
+		<van-grid :column-num="3">
+			<van-grid-item v-for="value in 6" :key="value" icon="photo-o" text="文字" />
+		</van-grid>
+		<van-sidebar v-model="activeKey">
+			<van-sidebar-item title="标签名称" />
+			<van-sidebar-item title="标签名称" />
+			<van-sidebar-item title="标签名称" />
+		</van-sidebar>
+
+		<van-goods-action>
+			<van-goods-action-icon icon="chat-o" text="客服" />
+			<van-goods-action-icon icon="shop-o" text="店铺" />
+			<van-goods-action-button color="#be99ff" type="warning" text="加入购物车" />
+			<van-goods-action-button color="#7232dd" type="danger" text="立即购买" />
+		</van-goods-action>
 	</div>
 
 </template>
