@@ -15,23 +15,23 @@
 				swipeData: [{
 					title: "测试1",
 					images: [{
-						url: "p1.jpg"
+						url: require("../../../assets/png/carry.png")
 					}, {
-						url: "p1.jpg"
+						url: require("../../../assets/png/carry.png")
 					}]
 				}, {
 					title: "测试1",
 					images: [{
-						url: "p1.jpg"
+						url: require("../../../assets/png/carry.png")
 					}, {
-						url: "p1.jpg"
+						url: require("../../../assets/png/carry.png")
 					}]
 				}, {
 					title: "测试1",
 					images: [{
-						url: "p1.jpg"
+						url: require("../../../assets/png/carry.png")
 					}, {
-						url: "p1.jpg"
+						url: require("../../../assets/png/carry.png")
 					}]
 				}]
 
