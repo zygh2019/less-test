@@ -4,8 +4,8 @@ import App from './App.vue'
 import Vant from 'vant';
 import { Lazyload } from 'vant';
 import 'vant/lib/index.css';
-import "./assets/css/headerLeftIcon.css"
-import "./assets/css/headerRightIcon.css"
+import "./assets/css/headerLeftIcon.less"
+import "./assets/css/headerRightIcon.less"
 Vue.use(Vant);
 
 Vue.use(Lazyload)

@@ -18,8 +18,17 @@
 </script>
 
 <style>
-	.van-nav-bar__title{
+	.van-tab--active {
+		font-size: 20px !important;
+		color: @base-color !important;
+	}
+
+	.van-tab {
+		color: #a9a9a9;
+	}
+
+	.van-nav-bar__title {
 		font-size: 20px;
-		color: #d41702 !important;
+		color: @base-color !important;
 	}
 </style>

@@ -1,6 +1,6 @@
 <template>
-	<van-tab :title="title" >
-		<van-swipe  :touchable="true" >
+	<van-tab :title="title">
+		<van-swipe :touchable="true">
 			<van-swipe-item v-for="(image, index) in images" :key="index">
 				<img v-lazy="image.url" height="200px" width="100%" />
 			</van-swipe-item>
@@ -12,10 +12,17 @@
 	export default {
 		props: {
 			title: String,
-			images:Array
+			images: Array
 		},
 	}
 </script>
 
-<style>
+<style lang="less">
+	.van-swipe__indicator {
+		width: 13px !important;
+	}
+
+	.van-swipe__indicator--active {
+		background-color: #d41702 !important;
+	}
 </style>

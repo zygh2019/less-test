@@ -5,6 +5,9 @@
 			<Csearch></Csearch>
 			<Ctab></Ctab>
 		</div>
+		<Ctabber></Ctabber>
+
+
 
 
 	</div>
@@ -15,18 +18,26 @@
 	import Cheader from "./components/vant/header/Cheader.vue"
 	import Csearch from "./components/vant/footer/Csearch.vue"
 	import Ctab from "./components/vant/footer/Ctab.vue"
+	import Ctabber from "./components/vant/footer/Ctabber.vue"
+	
 	export default {
 		name: 'app',
 		components: {
 			Cheader,
 			Csearch,
-			Ctab
+			Ctab,
+			Ctabber
 		},
+		data: () => {
+			return {
+				shopShow: true
+			}
+		}
 
 	}
 	// 创建构造器
 </script>
 
 <style>
-
+	
 </style>

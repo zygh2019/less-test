@@ -13,14 +13,14 @@
 	}
 </script>
 
-<style>
+<style lang="less">
 	.van-search__content {
-		box-shadow: 4px 4px 6px #dadada;
-		background-color: #f9f0e3 !important;
+		box-shadow: 4px 4px 6px @base-shadow-color;
+		background-color: @base-back-color !important;
 	}
 
 	.van-icon-search {
 		font-size: 19px !important;
-		color: #d41702 !important;
+		color: @base-color !important;
 	}
 </style>
