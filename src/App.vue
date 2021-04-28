@@ -5,7 +5,7 @@
 			<Csearch></Csearch>
 			<Ctab></Ctab>
 		</div>
-		<Ctabber></Ctabber>
+		<Ctabber :weight="weight" :name="name" :money="money" :count="count"></Ctabber>
 
 
 
@@ -30,7 +30,11 @@
 		},
 		data: () => {
 			return {
-				shopShow: true
+				shopShow: true,
+				name:"超级好吃的烟台大樱桃(200L)",
+				money:"234",
+				count:"0",
+				weight:10
 			}
 		}
 
