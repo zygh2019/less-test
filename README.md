@@ -21,4 +21,5 @@ npm run lint
 ```
 
 ### Customize configuration
+### 技术 vue vant  vue-cil3 实现卖樱桃商城转发等功能
 
